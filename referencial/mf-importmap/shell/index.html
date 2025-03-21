@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <script type="importmap">
+    {
+      "imports": {
+          "mf-search": "http://localhost:8000/src/main.js",
+          "mf-order": "http://localhost:8001/src/main.js"
+        }
+    }
+  </script>
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="/order">
+          Pedidos
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <div id="app"></div>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

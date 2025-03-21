@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: black;
+  padding: 8px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}

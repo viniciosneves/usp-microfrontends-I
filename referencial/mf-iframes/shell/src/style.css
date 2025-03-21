@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+#micro-frontend-navigation {
+    height: 35px;
+}
+
+#outlet {
+    height: calc(100vh - 35px);
+}
