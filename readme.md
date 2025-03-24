@@ -35,7 +35,6 @@ Agora você pode executar qualquer comando `npm`, `npx` ou `node` dentro do ambi
 Ainda dentro do container:
 
 ```bash
-cd /workspace/referencial/mf-importmap
 npm create vite@latest nome-do-app
 cd nome-do-app
 npm install
