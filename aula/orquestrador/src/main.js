@@ -7,12 +7,12 @@ const rotas = [
         nome: 'Home'
     },
     {
-        path: '/',
+        path: '/produtos',
         source: '',
         nome: 'Produtos'
     },
     {
-        path: '/',
+        path: '/clientes',
         source: '',
         nome: 'Clientes'
     },

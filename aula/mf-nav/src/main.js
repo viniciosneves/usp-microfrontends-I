@@ -6,7 +6,8 @@ window.addEventListener('message', (evento) => {
         evento.data.rotas.forEach(element => {
             console.log(element)
             const li = document.createElement('li')
-            const ancora = document.createElement('ancora')
+            const ancora = document.createElement('a')
+            ancora.setAttribute('href', element.path)
             ancora.innerText = element.nome
             li.appendChild(ancora)
             listaDeLinks.appendChild(li)
